@@ -517,4 +517,9 @@ img {
 	#tiles{
 		width: 100%;
 	}
+	#third{
+		background-position: top;
+		background-attachment: scroll;
+
+	}
 }
