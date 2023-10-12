@@ -1,0 +1,522 @@
+﻿[
+   {
+       "ID": "1",
+       "Message": "you are never alone."
+   },
+   {
+       "ID": "2",
+       "Message": "the universe reminds you to embrace change with open arms."
+   },
+   {
+       "ID": "3",
+       "Message": "You are the universe's masterpiece. Shine your light today."
+   },
+   {
+       "ID": "4",
+       "Message": "Follow your dreams, they know the way."
+   },
+   {
+       "ID": "5",
+       "Message": "love yourself enough to set uncompromising standards for your life. Embrace your own standards, for happiness lies in their embrace, not in the expectations of others."
+   },
+   {
+       "ID": "6",
+       "Message": "you must remember the incredible power you possess within you to achieve anything you desire."
+   },
+   {
+       "ID": "7",
+       "Message": "Change is the river of life; the agile heart sails upon its currents."
+   },
+   {
+       "ID": "8",
+       "Message": "Why be a star when you can make a constellation?"
+   },
+   {
+       "ID": "9",
+       "Message": "Diversity exists naturally, but true inclusion is a choice we make every day."
+   },
+   {
+       "ID": "10",
+       "Message": "You are an unstoppable force of nature."
+   },
+   {
+       "ID": "11",
+       "Message": "Like a phoenix rising, challenges transform you more stronger and wiser."
+   },
+   {
+       "ID": "12",
+       "Message": "remember to put yourselves higher, on your own \"to-do\" list"
+   },
+   {
+       "ID": "13",
+       "Message": "Cherish the diversity in your life; it's where your true essence resides.\""
+   },
+   {
+       "ID": "14",
+       "Message": "Your challenges are the threads that weave the story of your remarkable transformation. Embrace them."
+   },
+   {
+       "ID": "15",
+       "Message": "Anything you lose when you stand up for yourself, protect your boundaries and begin to grow, was not meant to stay."
+   },
+   {
+       "ID": "16",
+       "Message": "The universe applauds your resilience. Keep going!"
+   },
+   {
+       "ID": "17",
+       "Message": "Your healing might be offensive to those who benefited from your brokenness. Heal Anyway."
+   },
+   {
+       "ID": "18",
+       "Message": "Honesty, and openness are always the foundation of insightful dialogue."
+   },
+   {
+       "ID": "19",
+       "Message": "Instead of begging for the pain to go away, choose to hear what your pain is begging of you."
+   },
+   {
+       "ID": "20",
+       "Message": "sometimes we are tested the most in life when we are getting close to a new chapter. Don't ever give up."
+   },
+   {
+       "ID": "21",
+       "Message": "Embrace others with an open heart, for in their diversity, you'll find the colors of your own transformation."
+   },
+   {
+       "ID": "22",
+       "Message": "everything you seek is inside of you."
+   },
+   {
+       "ID": "23",
+       "Message": "don't let anything hold you back from creating the life you’ve always wanted."
+   },
+   {
+       "ID": "24",
+       "Message": "It is often the small steps, not the giant leaps, that bring about the most lasting change."
+   },
+   {
+       "ID": "25",
+       "Message": "you can't be a rebel without the scars that come with it."
+   },
+   {
+       "ID": "26",
+       "Message": "when you walk in the fire, you start becoming fire proof."
+   },
+   {
+       "ID": "27",
+       "Message": "embrace the challenges! You were never meant to settle for anything less. Go crush it."
+   },
+   {
+       "ID": "28",
+       "Message": "Today, let the universe inspire your creativity."
+   },
+   {
+       "ID": "29",
+       "Message": "don't call it difficulty or an obstacle. Declare it an ultimate blessing to rise you up to a sky-high level."
+   },
+   {
+       "ID": "30",
+       "Message": "difficulties don't have the power to break you, unless you allow. Therefore, remember who is more powerful here."
+   },
+   {
+       "ID": "31",
+       "Message": "Nothing is impossible. The word itself says I'm possible!"
+   },
+   {
+       "ID": "32",
+       "Message": "Like a tree bending with the wind, your ability to adapt to change ensures your growth and survival."
+   },
+   {
+       "ID": "33",
+       "Message": "Keep your face always toward the sunshine, and shadows will fall behind you."
+   },
+   {
+       "ID": "34",
+       "Message": "If you're being tough on yourself for something that has happened, know it's normal. We all have scars. Be kind to yourself and stand up for yourself."
+   },
+   {
+       "ID": "35",
+       "Message": "Success is not final, failure is not fatal: it is the courage to continue that counts."
+   },
+   {
+       "ID": "36",
+       "Message": "You define your own life. Don't let other people write your script."
+   },
+   {
+       "ID": "37",
+       "Message": "You are never too old to set another goal or to dream a new dream."
+   },
+   {
+       "ID": "38",
+       "Message": "People shape your perspective, but remember, it's you who can set your own rules and design your life."
+   },
+   {
+       "ID": "39",
+       "Message": "You can be everything. You can be the infinite amount of things that people are."
+   },
+   {
+       "ID": "40",
+       "Message": "Believe you can and you're halfway there."
+   },
+   {
+       "ID": "41",
+       "Message": "Weaknesses are just strengths in the wrong environment."
+   },
+   {
+       "ID": "42",
+       "Message": "Amid life's storms, you find your strength to transform, just like a caterpillar emerges as a butterfly."
+   },
+   {
+       "ID": "43",
+       "Message": "All you need is the plan, the road map, and the courage to press on to your destination."
+   },
+   {
+       "ID": "44",
+       "Message": "Wake up determined, go to bed satisfied."
+   },
+   {
+       "ID": "45",
+       "Message": "Don't try to lessen yourself for the world; let the world catch up to you."
+   },
+   {
+       "ID": "46",
+       "Message": "If you don't like the road you're walking, start paving another one!"
+   },
+   {
+       "ID": "47",
+       "Message": "Through inclusion, you create a world where every unique voice harmonizes to create a symphony of unity."
+   },
+   {
+       "ID": "48",
+       "Message": "The only limit to your realization of tomorrow will be your doubts today."
+   },
+   {
+       "ID": "49",
+       "Message": "Life's hurdles are the universe's way of sculpting you into a masterpiece."
+   },
+   {
+       "ID": "50",
+       "Message": "Remember to give yourself the same kindness you always give to others."
+   },
+   {
+       "ID": "51",
+       "Message": "Refocuses your energy on you."
+   },
+   {
+       "ID": "52",
+       "Message": "Every person you meet is a chance to broaden your horizons and enrich your life with new perspectives."
+   },
+   {
+       "ID": "53",
+       "Message": "Being vulnerable is a strength, not a weakness."
+   },
+   {
+       "ID": "54",
+       "Message": "In order for the light to shine so brightly, the darkness must be present."
+   },
+   {
+       "ID": "55",
+       "Message": "The universe whispers: Every setback is a setup for a magnificent comeback."
+   },
+   {
+       "ID": "56",
+       "Message": "Never bend your head. Always hold it high. Look the world straight in the eye."
+   },
+   {
+       "ID": "57",
+       "Message": "The only journey is the one within."
+   },
+   {
+       "ID": "58",
+       "Message": "There is always light. If only we're brave enough to see it. If only we're brave enough to be it."
+   },
+   {
+       "ID": "59",
+       "Message": "You’re braver than you believe, stronger than you seem, and smarter than you think."
+   },
+   {
+       "ID": "60",
+       "Message": "Once you face your fear, nothing is ever as hard as you think."
+   },
+   {
+       "ID": "61",
+       "Message": "A person who never made a mistake never tried anything new."
+   },
+   {
+       "ID": "62",
+       "Message": "All dreams are within reach. All you have to do is keep moving towards them."
+   },
+   {
+       "ID": "63",
+       "Message": "Remember tough times never last."
+   },
+   {
+       "ID": "64",
+       "Message": "Go confidently in the direction of your dreams. Live the life you have imagined."
+   },
+   {
+       "ID": "65",
+       "Message": "Act as if what you do makes a difference. It does."
+   },
+   {
+       "ID": "66",
+       "Message": "There is nothing impossible to they who will try."
+   },
+   {
+       "ID": "67",
+       "Message": "The most difficult thing is the decision to act; the rest is merely tenacity."
+   },
+   {
+       "ID": "68",
+       "Message": "You can't change the direction of the wind, but you can adjust your sails to always reach your destination."
+   },
+   {
+       "ID": "69",
+       "Message": "No matter what you're going through, there's a light at the end of the tunnel."
+   },
+   {
+       "ID": "70",
+       "Message": "The best revenge is massive success."
+   },
+   {
+       "ID": "71",
+       "Message": "Remember that the airplane takes off against the wind, not with it."
+   },
+   {
+       "ID": "72",
+       "Message": "Never limit yourself because of others’ limited imagination."
+   },
+   {
+       "ID": "73",
+       "Message": "You are enough just as you are."
+   },
+   {
+       "ID": "74",
+       "Message": "It ain’t about how hard you hit. It’s about how hard you can get hit and keep moving forward."
+   },
+   {
+       "ID": "75",
+       "Message": "Goal setting is the secret to a compelling future."
+   },
+   {
+       "ID": "76",
+       "Message": "Be yourself; everyone else is already taken."
+   },
+   {
+       "ID": "77",
+       "Message": "Walk to your goal firmly and with bold steps."
+   },
+   {
+       "ID": "78",
+       "Message": "Every strike brings you closer to the next home run."
+   },
+   {
+       "ID": "79",
+       "Message": "You get in life what you have the courage to ask for."
+   },
+   {
+       "ID": "80",
+       "Message": "You are your best bet."
+   },
+   {
+       "ID": "81",
+       "Message": "The secret of getting ahead is getting started."
+   },
+   {
+       "ID": "82",
+       "Message": "Don’t limit yourself. You can go as far as your mind lets you. What you believe, remember, you can achieve."
+   },
+   {
+       "ID": "83",
+       "Message": "It’s hard to beat a person who never gives up."
+   },
+   {
+       "ID": "84",
+       "Message": "Remember that failure is not the opposite of success, it’s part of success."
+   },
+   {
+       "ID": "85",
+       "Message": "If people are doubting how far you can go, go so far that you can’t hear them anymore."
+   },
+   {
+       "ID": "86",
+       "Message": "Your passion is waiting for your courage to catch up."
+   },
+   {
+       "ID": "87",
+       "Message": "Magic is believing in yourself. If you can make that happen, you can make anything happen."
+   },
+   {
+       "ID": "88",
+       "Message": "Hold the vision, trust the process."
+   },
+   {
+       "ID": "89",
+       "Message": "If you hear a voice within you say, ‘You cannot paint,’ then by all means paint, and that voice will be silenced."
+   },
+   {
+       "ID": "90",
+       "Message": "If you believe it’ll work out, you’ll see opportunities."
+   },
+   {
+       "ID": "91",
+       "Message": "Keep your eyes on the stars, and your feet on the ground."
+   },
+   {
+       "ID": "92",
+       "Message": "If opportunity doesn’t knock, build a door."
+   },
+   {
+       "ID": "93",
+       "Message": "Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart."
+   },
+   {
+       "ID": "94",
+       "Message": "Work hard in silence, let your success be the noise."
+   },
+   {
+       "ID": "95",
+       "Message": "Never stop doing your best just because someone doesn’t give you credit."
+   },
+   {
+       "ID": "96",
+       "Message": "Don’t limit your challenges. Challenge your limits."
+   },
+   {
+       "ID": "97",
+       "Message": "When you’re in a dark place remember you’ve actually been planted."
+   },
+   {
+       "ID": "98",
+       "Message": "Today is your opportunity to build the tomorrow you want."
+   },
+   {
+       "ID": "99",
+       "Message": "Nothing can dim the light that shines from within."
+   },
+   {
+       "ID": "100",
+       "Message": "This is a reminder to you to create your own rule book, and live your life the way you want it."
+   },
+   {
+       "ID": "101",
+       "Message": "Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got to keep going."
+   },
+   {
+       "ID": "102",
+       "Message": "If you can’t do anything about it then let it go. Don’t be a prisoner to things you can’t change."
+   },
+   {
+       "ID": "103",
+       "Message": "A winner is a dreamer who never gives up."
+   },
+   {
+       "ID": "104",
+       "Message": "Today is where your book begins, the rest is still unwritten."
+   },
+   {
+       "ID": "105",
+       "Message": "Don’t compromise yourself. You’re all you’ve got."
+   },
+   {
+       "ID": "106",
+       "Message": "Doubt is a killer. You just have to know who you are and what you stand for. "
+   },
+   {
+       "ID": "107",
+       "Message": "Be a first rate version of yourself, not a second rate version of someone else."
+   },
+   {
+       "ID": "108",
+       "Message": "If your dreams don’t scare you, they are too small."
+   },
+   {
+       "ID": "109",
+       "Message": "Nothing is stronger than a broken man rebuilding himself."
+   },
+   {
+       "ID": "110",
+       "Message": "You don’t have to be perfect to be amazing."
+   },
+   {
+       "ID": "111",
+       "Message": "The best way to predict your future is to create it."
+   },
+   {
+       "ID": "112",
+       "Message": "When you know your worth, no one can make you feel worthless."
+   },
+   {
+       "ID": "113",
+       "Message": "Remember, you have been criticizing yourself for years and it hasn’t worked. Try approving of yourself and see what happens."
+   },
+   {
+       "ID": "114",
+       "Message": "You’re off to Great Places! Today is your day! Your mountain is waiting, so … get on your way!"
+   },
+   {
+       "ID": "115",
+       "Message": "You were born to win, but to be a winner, you must plan and to win."
+   },
+   {
+       "ID": "116",
+       "Message": "Don’t stop when you are tired. Stop when you are done."
+   },
+   {
+       "ID": "117",
+       "Message": "Do the best you can until you know better. Then when you know better, do better."
+   },
+   {
+       "ID": "118",
+       "Message": "Start where you are. Use what you have. Do what you can."
+   },
+   {
+       "ID": "119",
+       "Message": "You may be the only person left who believes in you, but it's enough. It takes just one star to pierce a universe of darkness. Never give up."
+   },
+   {
+       "ID": "120",
+       "Message": "It does not matter how slowly you go as long as you do not stop."
+   },
+   {
+       "ID": "121",
+       "Message": "Courage doesn't always roar, sometimes it's the quiet voice at the end of the day whispering 'I will try again tomorrow."
+   },
+   {
+       "ID": "122",
+       "Message": "Just because you fail once doesn't mean you're gonna fail at everything."
+   },
+   {
+       "ID": "123",
+       "Message": "There is no failure except in no longer trying."
+   },
+   {
+       "ID": "124",
+       "Message": "When it comes to your dreams, every risk is worth it."
+   },
+   {
+       "ID": "125",
+       "Message": "Gain control of your time, and you will gain control of your life."
+   },
+   {
+       "ID": "126",
+       "Message": "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps."
+   },
+   {
+       "ID": "127",
+       "Message": "Focus on the step in front of you, not the whole staircase."
+   },
+   {
+       "ID": "128",
+       "Message": "Setting goals is the first step in turning the invisible into the visible."
+   },
+   {
+       "ID": "129",
+       "Message": "Accept the challenges so that you can feel the exhilaration of victory."
+   },
+   {
+       "ID": "130",
+       "Message": "Today’s accomplishments were yesterday’s impossibilities."
+   }
+]

@@ -1,0 +1,111 @@
+window.onbeforeunload = function () {
+	window.scrollTo(0, 0);
+ }
+
+let animationTriggered = false;
+
+// Function to start the popout animation
+function startPopoutAnimation() {
+const card = document.getElementById("cardbackside");
+card.style.display = "block";
+card.style.animation = "popout 1s ease";
+card.style.WebkitAnimation = "popout 1s ease";
+}
+
+function startShakeAnimation() {
+const card = document.getElementById("cardbackside");
+card.style.animation = "shake 1s ease";
+card.style.WebkitAnimation = "shake 1s ease";
+}
+
+function startRotateAnimation() {
+const cardfr = document.getElementById("cardbackside");
+cardfr.style.display = "none";
+const card = document.getElementById("cardfrontside");
+card.style.display = "grid";
+card.style.animation = "rotate 600ms ease";
+card.style.WebkitAnimation = "rotate 600ms ease";
+}
+
+// Intersection Observer callback function
+function handleIntersection(entries, observer) {
+entries.forEach((entry) => {
+	if (entry.isIntersecting && !animationTriggered) {
+		// If the element is in the viewport and the animation hasn't been triggered
+		setTimeout(startPopoutAnimation, 500);
+		setTimeout(startShakeAnimation, 1500);
+		setTimeout(startRotateAnimation, 2500);
+		setTimeout(function () {
+			const card = document.getElementById("cardfrontside");
+			card.style.removeProperty('animation');
+		}, 3100);
+		animationTriggered = true; // Mark the animation as triggered
+		observer.unobserve(entry.target); // Stop observing once triggered
+	}
+});
+}
+
+function printName() {
+var name = document.getElementById("inputname").value;
+document.getElementById("printname").innerHTML = name;
+}
+
+
+function downloadimg() {
+html2canvas(document.getElementById("cardfrontside"), {
+	allowTaint: true,
+	useCORS: true,
+	backgroundColor: null
+}).then((canvas) => {
+	const base64image = canvas.toDataURL("image/png");
+	var anchor = document.createElement('a');
+	anchor.setAttribute("href", base64image);
+	anchor.setAttribute("download", "Message.png");
+	anchor.click();
+	anchor.remove();
+});
+}
+
+function getRndInt(min, max) {
+return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function getRndMsg(jsonData) {
+const rndInt = getRndInt(1, 45);
+const randomMsg = jsonData[rndInt].Message;
+return randomMsg;
+}
+
+function printmessage() {
+fetch('message.json', {
+		method: 'GET'
+	})
+	.then((response) => response.json())
+	.then((jsonData) => {
+		const rndMsg = getRndMsg(jsonData);
+		document.getElementById("printmessage").innerHTML = rndMsg;
+	})
+}
+document.addEventListener("DOMContentLoaded", function () {
+const form = document.getElementById("nameform");
+const body = document.body;
+
+form.addEventListener("submit", function (e) {
+	e.preventDefault(); // Prevent the form from submitting
+	printName();
+	printmessage();
+	// Add your form validation logic here, and submit the form if it's valid
+	// If the form is valid, you can enable scrolling
+
+	// For example, enable scrolling after a brief delay
+	setTimeout(function () {
+		body.style.overflow = "auto"; // Enable scrolling
+	}); // Adjust the delay as needed
+	document.querySelector('#second').scrollIntoView({
+		behavior: 'smooth'
+	});
+	// Set up the Intersection Observer to watch the "second" element
+	const observer = new IntersectionObserver(handleIntersection);
+	observer.observe(document.getElementById("second"));
+});
+});
