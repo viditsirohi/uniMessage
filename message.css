@@ -17,13 +17,13 @@ body {
 	color: black;
 	background-color: white;
 	font-family: "Source Sans Pro", sans-serif;
-	overflow: hidden;
+	/* overflow: hidden; */
 	font-size: 1vmax;
 }
-/* 
+
 body::-webkit-scrollbar {
   display: none;
-} */
+}
 
 img {
 	-webkit-user-drag: none;
@@ -352,7 +352,6 @@ img {
 
 #third {
 	background: url(images/desktop/parallax_bg.jpg);
-	/* background-position: top; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -372,6 +371,10 @@ img {
 	position: absolute;
 	z-index: 1;
 	color: white;
+}
+
+#p12{
+	display: none;
 }
 
 #p2 {
@@ -503,8 +506,15 @@ img {
 	#p1 {
 		grid-row: 2 / 3;
 		grid-column: 1 / 2;
-		font-size: 3.5em;
+		font-size: 3em;
 		padding-left: 2em;
+	}
+
+	#p11{
+		display: none;
+	}
+	#p12{
+		display: block;
 	}
 
 	#p2 {
