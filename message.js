@@ -120,7 +120,8 @@ document.getElementById("submitbtn").addEventListener("click", function (e) {
 	printmessage();
 	body.style.overflow = "auto";
 	document.querySelector('#second').scrollIntoView({
-		behavior: 'smooth'
+		behavior: 'smooth',
+		top: 15
 	});
 	const observer = new IntersectionObserver(handleIntersection);
 	observer.observe(document.getElementById("second"));
