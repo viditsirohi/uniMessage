@@ -114,6 +114,7 @@ const body = document.body;
 
 
 document.getElementById("submitbtn").addEventListener("click", function (e) {
+	navigator.virtualKeyboard.hide();
 	e.preventDefault();
 	printName();
 	printmessage();
