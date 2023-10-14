@@ -114,7 +114,7 @@ const body = document.body;
 
 
 document.getElementById("submitbtn").addEventListener("click", function (e) {
-	document.getElementById("inpt").blur();
+	document.getElementById("inputname").blur();
 	e.preventDefault();
 	printName();
 	printmessage();
