@@ -1,76 +1,78 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta name="viewport" content="width=device-width">
-      <link rel="stylesheet" type="text/css" href="message.css">
-      <script type="text/javascript" src="message.js"></script>
-      <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-   </head>
-   <body>
-      <div id="first">
-         <img id="herobg" style="width:100%; grid-row:1 / 6; grid-column:1 / 4">
-         <div id="herologo">
-            <img id="logo" src="images/desktop/logo.png" >
-         </div>
-         <div id="header">
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="message.css">
+    <script type="text/javascript" src="message.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <div id="first">
+        <img id="herobg" style="width:100%; grid-row:1 / 6; grid-column:1 / 4">
+        <div id="herologo">
+            <img id="logo" src="images/desktop/logo.png">
+        </div>
+        <div id="header">
             <h1 style="font-size:3.5em;">The universe within YOU<br>has a message for you.</h1>
             <p style="font-size:2em;">Discover your message below.<br>Let this wisdom be your
-               guiding light.
+                guiding light.
             </p>
-         </div>
-         <form id="nameform">
-            <input required id="inputname" spellcheck="false" type="text" name="name" placeholder="Name" autocomplete="off">
-            <input required id="inputname" spellcheck="false" type="email" name="email" placeholder="Email" autocomplete="off">
+        </div>
+        <form id="nameform">
+            <input required id="name" class="inputname" spellcheck="false" type="text" name="name" placeholder="Name" autocomplete="off">
+            <input required id="email" class="inputname" spellcheck="false" type="email" name="email" placeholder="Email" autocomplete="off">
             <button id="submitbtn" type="submit">&#x1F782;&#x1F782;</button>
-         </form>
-      </div>
-      <div id="second">
-         <img id="planet" src="images/desktop/div2bg.png">
-         <img id="flare" src="images/desktop/flare.png">
-         <img id="bgcards" src="images/desktop/cards_in_bg.png">
-         <div id="card">
+        </form>
+    </div>
+    <div id="second">
+        <img id="planet" src="images/desktop/div2bg.png">
+        <img id="flare" src="images/desktop/flare.png">
+        <img id="bgcards" src="images/desktop/cards_in_bg.png">
+        <div id="card">
             <div id="cardbackside">
-               <img style="width: 100%;" src="images/desktop/cardbackside.png">
+                <img style="width: 100%;" src="images/desktop/cardbackside.png">
             </div>
             <div id="cardfrontside">
-               <img id="cardfr" src="images/desktop/cardfrontside.png">
-               <div id="cardhead">
-                  MESSAGE FOR THE DAY
-               </div>
-               <div id="carddata">
-                  <h2 id="username"><span id="printname"></span>,</h2>
-                  <div id="usermsg" >
-                  </div>
-               </div>
-               <div id="cardlinks" data-html2canvas-ignore>
-                  <a style="cursor:pointer;" onclick="downloadimg()"><img style="height: 1.5vmax;"
-                     src="images/desktop/save.png"></a>
-               </div>
-               <div id="cardfoot">
-                  invincibleYOU.world
-               </div>
+                <img id="cardfr" src="images/desktop/cardfrontside.png">
+                <div id="cardhead">
+                    MESSAGE FOR THE DAY
+                </div>
+                <div id="carddata">
+                    <h2 id="username"><span id="printname"></span>,</h2>
+                    <div id="usermsg">
+                    </div>
+                </div>
+                <div id="cardlinks" data-html2canvas-ignore>
+                    <a style="cursor:pointer;" onclick="downloadimg()"><img style="height: 1.5vmax;" src="images/desktop/save.png"></a>
+                </div>
+                <div id="cardfoot">
+                    invincibleYOU.world
+                </div>
             </div>
-         </div>
-      </div>
-      <div id="third">
-         <div id="p1">
-            <span id = "p11">Listen to your mind, body and Soul.<br>Unlaesh the secrets of your universe.</span>
-            <span id = "p12">Listen to your mind, body and Soul. Unlaesh the secrets of your universe.</span>
-         </div>
-         <div id="p2">
+        </div>
+    </div>
+    <div id="third">
+        <div id="p1">
+            <span id="p11">Listen to your mind, body and Soul.<br>Unlaesh the secrets of your universe.</span>
+            <span id="p12">Listen to your mind, body and Soul. Unlaesh the secrets of your universe.</span>
+        </div>
+        <div id="p2">
             Remember...<br>Your are Invincible
-         </div>
-      </div>
-      <div id="fourth" style="padding: 10cqh 5vmax;">
-         <div style="font-size: clamp(20px ,2.5vmax, 32px); font-weight: 400; color: #680087;padding-bottom: 3cqh;">
+        </div>
+    </div>
+    <div id="fourth" style="padding: 10cqh 5vmax;">
+        <div style="font-size: clamp(20px ,2.5vmax, 32px); font-weight: 400; color: #680087;padding-bottom: 3cqh;">
             Explore transformations for YOU
-         </div>
-         <div id="tiles">
+        </div>
+        <div id="tiles">
             <div id="tile1"><a href=""><img style="width: 100%;" src="images/desktop/tile1.png"></a></div>
             <div id="tile2"><a href=""><img style="width: 100%;" src="images/desktop/tile2.png"></a></div>
-         </div>
-      </div>
-      <div id="fifth">
-      </div>
-   </body>
+        </div>
+    </div>
+    <div id="fifth">
+    </div>
+</body>
+
 </html>

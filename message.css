@@ -67,7 +67,7 @@ img {
     text-align: center;
 }
 
-#inputname {
+.inputname {
     margin-right: 2vmax;
     height: 2.5vmax;
     width: 15vmax;
@@ -76,24 +76,28 @@ img {
     line-height: 2.5vmax;
     border-radius: 1.25vmax;
     border: 0;
-    background: rgba(256, 256, 256, 0.8);
+    background: rgba(256, 256, 256, 0.6);
     transition: box-shadow 200ms;
 }
 
-#inputname:focus {
+.inputname:focus {
     border: 0;
     outline: 0;
     box-shadow: 0 0 3px 6px rgba(256, 256, 256, 0.3),
         0 0 5px 10px rgba(256, 256, 256, 0.1);
 }
 
-#inputname:focus::placeholder {
+.inputname:focus::placeholder {
     color: transparent;
 }
 
-#inputname:hover {
+.inputname:hover {
     box-shadow: 0 0 3px 6px rgba(256, 256, 256, 0.3),
         0 0 5px 10px rgba(256, 256, 256, 0.1);
+}
+
+.inputname::placeholder {
+    color: rgba(0, 0, 0, 0.8);
 }
 
 #submitbtn {
