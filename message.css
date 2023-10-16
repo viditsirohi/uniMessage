@@ -111,7 +111,6 @@ img {
     background-color: rgb(255, 204, 0);
     color: rgb(80, 0, 104);
     transition: box-shadow 200ms;
-    font-family: 'SymbolaRegular';
 }
 
 #submitbtn:hover {
