@@ -461,7 +461,7 @@ img {
         margin: 1vmax 3vmax;
     }
 
-    #inputname {
+    .inputname {
         margin: 1vmax 0;
         height: 5vmax;
         width: 40vmax;
