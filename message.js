@@ -105,7 +105,16 @@ async function post2sheet(name, email){
 		console.error('Error:', error);
 	}
 }
- 
+
+
+document.getElementById("email").addEventListener("blur", ()=>{
+	window.scrollTo(0,0);
+})
+document.getElementById("name").addEventListener("blur", ()=>{
+	window.scrollTo(0,0);
+})
+
+
 document.addEventListener("DOMContentLoaded", function() {
 	const form = document.getElementById("nameform");
 	const body = document.body;
